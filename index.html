@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>부동산정보</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="../images/house.png">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="header">
+            <ol class="spot">
+                <li><a href="login.html" id="login_out">로그인</a></li>
+                <li><a href="sign-up.html">회원가입</a></li>
+                <li><a href="#">마이페이지</a></li>
+            </ol>
+        </div>
+    </header>
+
+    <!-- menu -->
+
+    <div class="menuBar">
+        <div id="logo">
+            <a href="" id="logo">
+                <img src="/images/logo.png" alt="" width="100px">
+                <br>
+                <span>부동산정보</span>
+            </a>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href=""><span>공지사항</span></a></li>
+                <li><a href=""><span>부동산용어사전</span></a></li>
+                <li><a href=""><span>수요/입주</span></a></li>
+                <li><a href=""><span>미분양</span></a></li>
+                <li><a href=""><span>청약</span></a></li>
+            </ul>
+        </div>
+        <div id="dropdown"></div>
+    </div>
+
+
+    <!-- search bar -->
+
+    <div id="overSearch">
+        <h1>어디에 관심을 갖고 있나요?</h1>
+    </div>
+    <div class="wrap">
+        <div class="search">
+            <input type="text" class="searchTerm" placeholder="아파트 이름을 입력해주세요.">
+            <button type="submit" class="searchButton">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- main section -->
+    <div class="slideShow">
+        <ul class="slides">
+            <li><span><iframe width="800" height="400" src="https://www.youtube.com/embed/NczoaYBM0bo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span></li>
+            <li><span><iframe width="800" height="400" src="https://www.youtube.com/embed/rE5rR-oaZ04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span></li>
+            <li><span><iframe width="800" height="400" src="https://www.youtube.com/embed/w1Z9e9P77I0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span></li>
+            <li><span><iframe width="800" height="400" src="https://www.youtube.com/embed/UlvnlCRJhcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span></li>
+        </ul>
+        <p class="controller">
+            <span class="prev">&lang;</span>
+            <span class="next">&rang;</span>
+        </p>
+    </div>
+
+    <!-- news and ranking -->
+    
+        <div class="newsAndRank">
+            <div id="news" class="NAR">
+                <p>부동산 뉴스<a href="https://land.naver.com/news/headline.naver" target="_blank">더보기</a></p>
+                <ul>
+                    <li><a href="https://land.naver.com/news/newsRead.naver?type=headline&bss_ymd=&prsco_id=417&arti_id=0000806937" target="_black" class="newsLink">"서울서 아파트 마련하기 더 어려워졌다" 중위소득 살 집은 2%대</a></li>
+                    <li><a href="https://land.naver.com/news/newsRead.naver?type=headline&bss_ymd=&prsco_id=009&arti_id=0004954366" target="_black" class="newsLink">1기 신도시 안전진단 폐지 공약 물건너 가나…인수위, 집값 상승 기조에 속도조절</a></li>
+                    <li><a href="https://land.naver.com/news/newsRead.naver?type=headline&bss_ymd=&prsco_id=016&arti_id=0001982126" target="_black" class="newsLink">‘신중’ 尹정부의 부동산 정책, 공급물량 추계 수준 그치나</a></li>
+                    <li><a href="https://land.naver.com/news/newsRead.naver?type=headline&bss_ymd=&prsco_id=277&arti_id=0005078895" target="_black" class="newsLink">서울 빌라 매매 거래, 소형 비중 역대 1분기 기준 최고치</a></li>
+                    <li><a href="https://land.naver.com/news/newsRead.naver?type=headline&bss_ymd=&prsco_id=020&arti_id=0003424508" target="_black" class="newsLink">소규모 단지 아파트 매입 급증… “상대적으로 저렴”</a></li>
+                </ul>
+            </div>
+            <div id="rankAsc" class="NAR">
+                <p>주간 상승률 TOP5<a href="부동산주간통계자료.xlsx" download>.xlsx다운로드</a></p>
+                <ol>
+                    <li>경남 거제 2.5%</li>
+                    <li>경기 시흥 1.9%</li>
+                    <li>전남 여수 1.8%</li>
+                    <li>마산 합포구 1.5%</li>
+                    <li>경기 동두천 1.3%</li>
+                </ol>
+            </div>
+            <div id="rankDes" class="NAR">
+                <p>주간 하락률 TOP5<a href="부동산주간통계자료.xlsx" download>.xlsx다운로드</a></p>
+                <ol>
+                    <li>세종특별시 -1.2%</li>
+                    <li>대구 중구 -0.9%</li>
+                    <li>대전 대덕구 -0.7%</li>
+                    <li>경기 안성시 -0.5%</li>
+                    <li>강원 철원군 -0.2%</li>
+                </ol>
+            </div>
+        </div>
+    
+
+    <div id="footer">
+        <div>
+            <img src="/images/logo.png" alt="" width="100px">
+        </div>
+        <div>
+            <p id="name">사이트명 : 부동산정보</p>
+            <p id="email">E-mail : abc@gmail.com &nbsp; 전화번호 : 123-4567</p>
+            <p id="terms"><a href="#">이용약관</a></p>
+        </div>
+    </div>
+
+    <script src="slideShow.js"></script>
+</body>
+
+</html>
