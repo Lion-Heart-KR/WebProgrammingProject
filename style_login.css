@@ -125,10 +125,6 @@ body {
     100% {
         left: 100%;
     }
-
-    100% {
-        left: 100%
-    }
 }
 
 .login-box a span:nth-child(2) {
