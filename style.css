@@ -18,7 +18,10 @@ body{margin: 0; padding: 0;font-family: 'Open Sans', sans-serif;}
 #menu a{display : inline-block; width: 200px; text-decoration: none; color : black; opacity: 0.5;}
 #menu>ul>li>a:hover{opacity: 1.0; transition: 0.25s;}
 #menu>ul>li>a>span{display: inline-block;}
-#menu>ul>li>a>span:after{display: block; content: ''; border-bottom: solid 10px #89abc6; border-radius: 5px; opacity: 0.5; margin-top: -50px; transform: scaleX(0); transition: transform 250ms ease-in-out;}
+#menu>ul>li>a>span:after{
+    display: block; content: ''; border-bottom: solid 10px #89abc6; border-radius: 5px; opacity: 0.5; margin-top: -50px; 
+    transform: scaleX(0); transition: transform 250ms ease-in-out;
+}
 #menu>ul>li>a>span:hover:after{transform:scaleX(1)}
 /* #menu a span:hover:after{transform :scaleX(1)} */
 
@@ -80,6 +83,9 @@ body{margin: 0; padding: 0;font-family: 'Open Sans', sans-serif;}
     height: 150px;
 }
 .newsAndRank{display: flex; padding : 0 200px; background-color: #e1e2e1;}
+#news{flex:1; background-color: #fff;}
+#rankAsc{flex:1; background-color: #fff;}
+#rankDes{flex:1; background-color: #fff;}
 .newsAndRank p{text-align: center; background-color: #e1e2e1; position : relative;}
 .newsAndRank p>a{position :absolute; right: 10px; bottom:0px; text-decoration: none; color : lightcoral; font-size: 14px;}
 .newsAndRank p>a:hover{color : black;}
@@ -87,9 +93,6 @@ body{margin: 0; padding: 0;font-family: 'Open Sans', sans-serif;}
 .newsLink{display: block; text-decoration: none; color : black;  width: 440px; height: 22px; text-overflow:ellipsis; white-space:nowrap; overflow: hidden;}
 .newsLink:hover{text-decoration: underline; color: blue;}
 .NAR{border : 1px solid black; margin : 10px;}
-#news{flex:1; background-color: #fff;}
-#rankAsc{flex:1; background-color: #fff;}
-#rankDes{flex:1; background-color: #fff;}
 
 #footer{display: flex; justify-content: center; background-color: #eeffff;}
 #footer > div{padding:20px 10px; line-height: 100%;}
